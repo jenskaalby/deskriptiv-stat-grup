@@ -62,7 +62,7 @@ if interval_input and freq_input:
             df["Kumulativ frekvens"] = df["Kumulativ hyppighed"] / N
 
             st.subheader("📊 Oversigt over data")
-            st.dataframe(df.style.hide_index(), use_container_width=True)
+            st.table(df.reset_index(drop=True))
 
             # Fraktil input
             st.subheader("📍 Fraktilberegning")
