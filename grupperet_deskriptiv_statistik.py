@@ -20,9 +20,9 @@ with st.sidebar:
 st.header("1. Indtast intervaller og hyppigheder")
 col1, col2 = st.columns(2)
 with col1:
-    interval_input = st.text_area("Intervaller (ét pr. linje, fx '10-20'):", height=200, key="interval_input")
+    interval_input = st.text_area("Intervaller (et pr. linje, fx '10-20'):", height=200, key="interval_input")
 with col2:
-    freq_input = st.text_area("Hyppigheder (ét pr. linje, fx '4'):", height=200, key="freq_input")
+    freq_input = st.text_area("Hyppigheder (en pr. linje, fx '4'):", height=200, key="freq_input")
 
 if st.button("🔄 Ryd inputs"):
     st.experimental_rerun()
