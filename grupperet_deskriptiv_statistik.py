@@ -11,7 +11,7 @@ st.title("📘 Sumkurve og deskriptiv statistik for grupperede data")
 with st.sidebar:
     st.markdown("### ℹ️ Om")
     st.markdown("""
-    **Licens:** MIT License  
+    **Licens:** MIT License (https://opensource.org/licenses/MIT). 
     **Udvikler:** Jens Kaalby Thomsen 
     Dette værktøj hjælper med at visualisere og beregne deskriptiv statistik for grupperede observationer.
     """)
