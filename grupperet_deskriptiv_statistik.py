@@ -12,7 +12,7 @@ with st.sidebar:
     st.markdown("### ℹ️ Om")
     st.markdown("""
     **Licens:** MIT License  
-    **Udviklere:** OpenAI ChatGPT og Jens Kaalby Thomsen 
+    **Udvikler:** Jens Kaalby Thomsen 
     Dette værktøj hjælper med at visualisere og beregne deskriptiv statistik for grupperede observationer.
     """)
 
